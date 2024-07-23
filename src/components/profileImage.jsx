@@ -1,6 +1,7 @@
 import React from 'react';
+import'./ProfileImage.css';
 
-function ProfileImage() {
+function ProfileImage({ src, alt}) {
   return (
     <img className="profile" src={src} alt={alt} />
   );

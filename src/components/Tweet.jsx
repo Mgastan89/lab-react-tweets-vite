@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileImage from './ProfileImage';
-
+import './Tweet.css';
 
 function Tweet({ tweet}) {
   return (
@@ -23,4 +23,4 @@ function Tweet({ tweet}) {
   );
 }
 
-export default Tweet
+export default Tweet;
