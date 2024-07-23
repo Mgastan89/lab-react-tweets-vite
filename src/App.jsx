@@ -8,7 +8,7 @@ const tweetsArray = [
     user: {
       name: "Thoughts of Dog®",
       image:
-        "https://education-https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/8/13467/files/2014/09/dog1.jpgteam-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/tweet-user-photo.png",
+        "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/tweet-user-photo.png",
       handle: "dog_feelings",
     },
     timestamp: "1h ago",
