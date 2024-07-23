@@ -1,10 +1,8 @@
 import React from 'react';
 
-function Timestamp() {
+function Timestamp({ time }) {
   return (
-    <div>
-      Timestamp Component
-    </div>
+      <span className="timestamp">{time}</span>     </div>
   );
 }
 

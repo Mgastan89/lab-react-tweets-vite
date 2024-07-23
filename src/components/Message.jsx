@@ -1,10 +1,8 @@
-import React from 'react';
 
-function Message() {
+
+function Message({ message }) {
   return (
-    <div>
-      Message Component
-    </div>
+      <p className="message">{message}</p>
   );
 }
 

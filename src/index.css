@@ -109,7 +109,7 @@ button:focus-visible {
 
 .timestamp {
   color: #536471;
-  font-size: 1.1rem;
+  font-size: 0.5em;
 }
 
 .timestamp::before {
@@ -129,10 +129,20 @@ button:focus-visible {
 }
 
 .actions {
-  padding: 5px 5px;
+  padding: 5px;
   width: 360px;
   display: flex;
   justify-content: space-between;
   color: #536471;
   margin: 0 auto;
+}
+
+ .name {
+  font-weight: bold;
+  margin-right: 0.5em; 
+}
+
+.handle {
+  color: #536471;
+  margin-left: 0.5em; 
 }

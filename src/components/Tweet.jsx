@@ -1,18 +1,20 @@
-import React from 'react';
+
 import ProfileImage from './ProfileImage';
+import User from './User';
+import Timestamp from './Timestamp';
 
 function Tweet({ tweet }) {
   return (
     <div className="tweet">
-      {/* Pass image URL and alt text as props */}
       <ProfileImage image={tweet.user.image} alt={tweet.user.name} />
       <div className="body">
         <div className="top">
-          <span className="name">{tweet.user.name}</span>
-          <span className="handle">@{tweet.user.handle}</span>
-          <span className="timestamp">{tweet.timestamp}</span>
+
+          <User name={tweet.user.name} handle={tweet.user.handle} />
+
+          <Timestamp time={tweet.timestamp} />
         </div>
-        <p className="message">{tweet.message}</p>
+        <Message message>{tweet.message}</>
         <div className="actions">
           <i className="fas fa-heart"></i>
           <i className="fas fa-retweet"></i>
