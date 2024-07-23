@@ -2,9 +2,7 @@ import React from 'react';
 
 function ProfileImage() {
   return (
-    <div>
-      Profile Image Component
-    </div>
+    <img className="profile" src={src} alt={alt} />
   );
 }
 
