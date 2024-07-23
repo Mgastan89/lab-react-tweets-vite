@@ -1,6 +1,5 @@
 import "./App.css";
 import Tweet from "./components/Tweet";
-import React from 'react';
 import'./index.css';
 
 const tweetsArray = [
