@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 function User({ name, handle}) {
   return (

@@ -2,6 +2,7 @@
 import ProfileImage from './ProfileImage';
 import User from './User';
 import Timestamp from './Timestamp';
+import Message from './Message';
 
 function Tweet({ tweet }) {
   return (
@@ -14,7 +15,8 @@ function Tweet({ tweet }) {
 
           <Timestamp time={tweet.timestamp} />
         </div>
-        <Message message>{tweet.message}</>
+
+        <Message message={tweet.message} />
         <div className="actions">
           <i className="fas fa-heart"></i>
           <i className="fas fa-retweet"></i>
